@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p id="message">Hello</p>
+  <button onclick="changeText()">Click me</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+function changeText() {
+  document.getElementById("message").textContent = "Button clicked";
+}
